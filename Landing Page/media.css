@@ -1,0 +1,232 @@
+/* MEDIA QUERIES  */
+
+@media (max-width:1024px){
+    /* OUR PROJECT SECTION  */
+    .card-container{
+     min-width: 100%;
+ }
+ }
+ 
+ @media (max-width:998px) {
+     html{
+         font-size: 55%;
+     }
+     /* CEO MESSAGE SECTION  */
+     .message-content{
+         padding: 2rem;
+         margin: 2rem;
+     }
+    
+ }
+ 
+ @media (max-width:768px) {
+  html{
+         font-size: 50%;
+     }
+     /* MAIN SECTION  */
+     .main-section{
+         width: 100%;
+         
+     }
+     /* CHOOSE SECTION  */
+     .choose-section{
+         min-width: 100%;
+     }
+     /* OUR PROJECT SECTION  */
+     .card-container{
+         min-width: 100%;
+ 
+     }
+     /* CEO MESSAGE SECTION  */
+     .message-content{
+         padding: 2rem;
+         margin: 2rem;
+     }
+     /* FOOTER  */
+     footer{
+         min-width: 100%;
+     }
+     .row{
+         /* flex-direction: column; */
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: flex-start;
+     }
+ 
+ }
+ 
+ @media (max-width:715px) {
+     html{
+            font-size: 50%;
+        }
+     /* NAVIGATION  */
+     nav ul li{
+         display: none;
+     }
+     .start-btn{
+         display: none;
+     }
+     .bars{
+         display: block;
+     }
+     /* CEO MESSAGE SECTION  */
+     .message-content{
+         padding: 2rem;
+         margin: 2rem;
+     }
+    
+    
+    }
+    @media (max-width:700px) {
+     html{
+         font-size: 45%;
+     }
+     /* OUR PROJECT SECTION  */
+     .card-container{
+         min-width: 100%;
+         
+     }
+     .card-box{
+         flex-direction: column;
+     }
+ }
+ @media (max-width:670px) {
+     html{
+            font-size: 45%;
+        }
+     nav ul li{
+         display: none;
+     }
+     .start-btn{
+         display: none;
+     }
+     .bars{
+         display: block;
+     }
+     /* MAIN SECTION  */
+     .main-section{
+         width: 100%;
+         
+     }
+     /* CHOOSE SECTION  */
+     .choose-section{
+         min-width: 100%;
+     }
+     .item2{
+        display: none;
+     }
+     /* CEO MESSAGE SECTION  */
+     .message-content{
+         padding: 2rem;
+         margin: 2rem;
+     }
+     /* FOOTER  */
+     footer{
+         min-width: 100%;
+     }
+     .row{
+         flex-direction: column;
+         /* flex-wrap: wrap; */
+         justify-content: space-between;
+         align-items: flex-start;
+     }
+    }
+ 
+    @media (max-width:475px){
+     html{
+         font-size: 40%;
+     }
+ }
+ @media (max-width:423px){
+     html{
+         font-size: 40%;
+     }
+     .main-section{
+         width: 100%;
+         height: max-content;
+     }
+     .text-content{
+         width: 100%;
+         padding: 2rem;
+     }
+ }
+ @media (max-width:400px){
+     html{
+         font-size: 40%;
+     }
+     /* OUR PROJECT SECTION  */
+     .card-content h3{
+         font-size: 2.5rem;
+     }
+     .card-content p{
+         font-size: 2rem;
+     }
+     .card-content span{
+         font-size: 2rem;
+     }
+ }
+ @media (max-width:350px){
+     html{
+         font-size: 40%;
+     }
+ 
+ }
+ @media (max-width:335px){
+     html{
+         font-size: 38%;
+     }
+     /* FOOTER  */
+     footer{
+         min-width: 100%;
+     }
+     .row{
+         flex-direction: column;
+         /* flex-wrap: wrap; */
+         justify-content: space-between;
+         align-items: flex-start;
+     }
+     .col h3{
+         margin-top: 3rem;
+     }
+    
+ 
+ }
+ @media (max-width:305px){
+     html{
+         font-size: 38%;
+     }
+   
+ 
+ }
+ @media (max-width:280px){
+     html{
+         font-size: 37%;
+     }
+     /* MAIN SECTION  */
+     .main-section{
+         min-width: 100%;
+         
+     }
+     .main-section-cover{
+         width: 100%;
+     }
+     .message-section{
+         height: max-content;
+         width: 100%;
+     }
+     
+     
+ }
+ @media (max-width:185px){
+     html{
+         font-size: 33%;
+     }
+     .main-section{
+         width: 100%;
+        height: max-content;
+     }
+     .text-content{
+         width: 100%;
+         padding: 1rem;
+     }
+ }

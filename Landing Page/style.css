@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION  */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: #ffff;
+    background-color: #263640;
+    padding: 2.5rem;
+    position: sticky;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.nav-items ul li{
+    list-style: none;
+    border-bottom: 4px solid transparent;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.nav-items li:hover{
+    border-bottom: 4px solid #ffff;
+    cursor: pointer;
+    color: rgb(255, 169, 11);
+}
+.nav-items li a:hover{
+    border-bottom: 4px solid #ffff;
+    cursor: pointer;
+    color: rgb(255, 169, 11);
+}
+.start-btn button{
+    /* padding: 2rem; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.935rem;
+    padding-bottom: 0.935rem;
+    background-color: #7591A3;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+}
+.start-btn button:hover{
+    background-color: #95aebd;
+    transition: background-color 1s ease;
+}
+.bars{
+    display: none;
+    font-size: 2rem;
+}
+
+/* MAIN SECTION  */
+
+.main-section{
+    height: 550px;
+    /* width: 100vw; */
+    background-image: url('images/img13.jpg');
+    background-position: center center;
+    background-size: cover;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-top: 2px solid rgb(132, 123, 123);
+}
+
+.text-content{
+    padding: 4.5rem;
+}
+.text-content h1{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 6rem;
+    color: #ffff;
+}
+.text-content p{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-our-work{
+    background-color: #263640;
+    color: #ffff;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.87rem;
+    padding-bottom: 1.87rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+.see-our-work:hover{
+    background-color: #20282c;
+    transition: background-color 1s ease;
+}
+
+/* CHOOSE SECTION  */
+
+.choose-section{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    border-top: 2px solid rgb(132, 123, 123);
+    border-bottom: 2px solid rgb(132, 123, 123);
+}
+.heading{
+    /* border: 2px solid orange; */
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item2{
+    background-image: url("images/img15.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* border: 2px solid yellowgreen; */
+    width: 500px;
+    
+}
+.choose-boxes{
+    /* border: 2px solid rgb(16, 240, 176); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 5rem;
+}
+.img-box{
+    padding-left: 2rem;
+    font-size: 5rem;
+    color: rgb(224, 73, 19);
+}
+.choose-content-box{
+    /* border: 2px solid purple; */
+    padding: 3rem;
+}
+.choose-content-box h3{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+.choose-content-box p{
+    font-size: 1.87rem;
+}
+
+/* OUR PROJECT SECTION  */
+
+.our-project{
+    /* border: 2px solid red; */
+}
+.our-project h1{
+    font-size: 6rem;
+    text-align: center;
+}
+.card-container{
+    /* border: 2px solid red; */
+    /* padding: 3rem; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit(3, 1fr)); */
+    border-bottom: 2px solid rgb(132, 123, 123);
+
+}
+.card-box{
+    display: flex;
+    /* border: 2px solid purple; */
+    padding: 2rem;
+}
+.card{
+    /* border: 2px solid green; */
+    /* padding: 2rem; */
+    margin: 1rem;
+    border: 1px solid rgb(132, 123, 123);
+    border-radius: 4px;
+}
+.card-img{
+    background-size: cover;
+    background-position: center center ;
+    height: 300px;
+    width: 100%;
+}
+.card-img1{
+    background-image: url("images/img2.jpg");
+}
+.card-img2{
+    background-image: url("images/img3.jpg");
+}
+.card-img3{
+    background-image: url("images/img4.jpg");
+}
+.card-content{
+    padding: 1.5rem;
+}
+.card-content h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.card-content p{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.card-content span{
+    font-size: 1.2rem;
+    color: orange;
+    font-weight: 600;
+}
+.card-content span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* CEO MESSAGE SECTION  */
+
+.message-section{
+    /* border: 2px solid red; */
+    /* padding: 10rem; */
+    background-image: url("images/img8.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffff;
+    border-bottom: 2px solid rgb(132, 123, 123);
+  
+}
+.message-box{
+    /* border: 2px solid yellow; */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-content{
+    /* border: 2px solid green; */
+    padding: 7rem;
+    margin: 15rem;
+    text-align: center;
+}
+.message-content h2{
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
+}
+.message-content p{
+    font-size: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+#fpara{
+    margin-bottom: 3rem;
+    /* border: 2px solid purple; */
+}
+
+/* SUBSCRIBE SECTION   */
+
+.subscribe{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-image: url("images/img10.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    /* border-bottom: rgb(132, 123, 123); */
+    border-bottom: 2px solid rgb(132, 123, 123);
+    /* background-color: #929596; */
+}
+.subscribe-content{
+    /* border: 2px solid green; */
+    padding: 5rem;
+    text-align: center;
+}
+.subscribe-content h1{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* letter-spacing: 0.3rem; */
+}
+.subscribe-content p{
+    margin-bottom: 2rem;
+    font-size: 1.87rem;
+    /* border: 2px solid yellowgreen; */
+    padding: 2rem;
+    /* color: rgb(116, 108, 108); */
+}
+.subscribe-btn{
+    border: none;
+    padding: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    background-color: #20282c;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.subscribe-btn:hover{
+    background-color: #424647;
+    transition: background-color 1s ease;
+}
+
+/* FOOTER  */
+
+footer{
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.row{
+    /* border: 2px solid green; */
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.col h3{
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    font-size: 2.6rem;
+}
+.col a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.col a li{
+    list-style: none;
+}
+.col a li i{
+    padding-right: 0.5rem;
+}
+.center{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-top: 2px solid rgb(132, 123, 123);
+    padding: 2rem;
+    font-size: 1.8rem;
+}
