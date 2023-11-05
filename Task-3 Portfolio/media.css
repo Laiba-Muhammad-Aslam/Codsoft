@@ -1,0 +1,160 @@
+/* MEDIA QUERIES  */
+
+@media (max-width:1024px){
+    .about-me{
+        min-width: 100%;
+    }
+    .service-section{
+        min-width: 100%;
+    }
+    .services{
+        min-width: 100%;
+    }
+    .my-projects {
+        min-width: 100%;
+      }
+}
+
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+    nav{
+        min-width: 100%;
+    }
+    .about-me{
+        min-width: 100%;
+    }
+    .service-section{
+        min-width: 100%;
+    }
+    .services{
+        min-width: 100%;
+    }
+    .my-projects {
+        min-width: 100%;
+      }
+}
+
+@media (max-width:768px) {
+ html{
+        font-size: 45%;
+    }
+    nav{
+        min-width: 100%;
+    }
+    /* HERO SECTION  */
+    #hero .container {
+        /* flex-direction: column; */
+      }
+      .hero_image {
+        display: grid;
+        place-items: center;
+      }
+      #contact .container {
+        height: 70vh;
+      }
+    /* ABOUT ME  */
+    .about-me{
+        min-width: 100%;
+    }
+    .pic-text-container{
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .img-box{
+        min-width: 100%;
+    }
+    .content-container{
+        min-width: 100%;
+    }
+    .service-section{
+        min-width: 100%;
+    }
+    .services{
+        min-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-projects {
+        min-width: 100%;
+      }
+      /* CONTACT SECTION  */
+      .contact-form-container{
+        flex-direction: column;
+    }
+    .icon-container{
+        min-width: 100%;
+    }
+    .contact-form{
+        min-width: 100%;
+    }
+    .form input{
+        min-width: 70%;
+    }
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 45%;
+    }
+    nav{
+        min-width: 100%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    /* HERO SECTION  */
+    #hero .container {
+        flex-direction: column;
+      }
+      .hero_image {
+        display: grid;
+        place-items: center;
+      }
+      .hero_image  {
+        min-width: 50vw;
+        min-height: 30vh;
+        background-image: url("images/profileformobiledevices.png");
+        background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+      #contact .container {
+        height: 50vh;
+      }
+}
+@media (max-width: 325px) {
+    html {
+      font-size: 42%;
+    }
+    .my-projects {
+      min-width: 100%;
+    }
+  }
+  
+@media (max-width:309px){
+    .about-me{
+        min-width: 100%;
+    }
+    .pic-text-container{
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .img-box{
+        min-width: 100%;
+    }
+    .content-container{
+        min-width: 100%;
+    }
+    .service-section{
+        min-width: 100%;
+    }
+    .services{
+        min-width: 100%;
+        flex-direction: column;
+    }
+}
