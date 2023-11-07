@@ -28,6 +28,7 @@ nav{
     background-color: #263640;
     padding: 2.5rem;
     position: sticky;
+    top:0;
 }
 .logo{
     font-size: 2.5rem;
@@ -62,7 +63,6 @@ nav{
     color: rgb(255, 169, 11);
 }
 .start-btn button{
-    /* padding: 2rem; */
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 0.935rem;
@@ -95,7 +95,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     border-top: 2px solid rgb(132, 123, 123);
 }
 
@@ -139,8 +138,6 @@ nav{
 /* CHOOSE SECTION  */
 
 .choose-section{
-    /* border: 2px solid red; */
-    /* display: flex; */
     border-top: 2px solid rgb(132, 123, 123);
     border-bottom: 2px solid rgb(132, 123, 123);
 }
@@ -161,12 +158,10 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* border: 2px solid yellowgreen; */
     width: 500px;
     
 }
 .choose-boxes{
-    /* border: 2px solid rgb(16, 240, 176); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +174,6 @@ nav{
     color: rgb(224, 73, 19);
 }
 .choose-content-box{
-    /* border: 2px solid purple; */
     padding: 3rem;
 }
 .choose-content-box h3{
@@ -192,33 +186,23 @@ nav{
 
 /* OUR PROJECT SECTION  */
 
-.our-project{
-    /* border: 2px solid red; */
-}
 .our-project h1{
     font-size: 6rem;
     text-align: center;
 }
 .card-container{
-    /* border: 2px solid red; */
-    /* padding: 3rem; */
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit(3, 1fr)); */
     border-bottom: 2px solid rgb(132, 123, 123);
 
 }
 .card-box{
     display: flex;
-    /* border: 2px solid purple; */
     padding: 2rem;
 }
 .card{
-    /* border: 2px solid green; */
-    /* padding: 2rem; */
     margin: 1rem;
     border: 1px solid rgb(132, 123, 123);
     border-radius: 4px;
@@ -262,8 +246,6 @@ nav{
 /* CEO MESSAGE SECTION  */
 
 .message-section{
-    /* border: 2px solid red; */
-    /* padding: 10rem; */
     background-image: url("images/img8.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,14 +255,12 @@ nav{
   
 }
 .message-box{
-    /* border: 2px solid yellow; */
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .message-content{
-    /* border: 2px solid green; */
     padding: 7rem;
     margin: 15rem;
     text-align: center;
@@ -295,13 +275,11 @@ nav{
 }
 #fpara{
     margin-bottom: 3rem;
-    /* border: 2px solid purple; */
 }
 
 /* SUBSCRIBE SECTION   */
 
 .subscribe{
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,27 +289,20 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    /* border-bottom: rgb(132, 123, 123); */
     border-bottom: 2px solid rgb(132, 123, 123);
-    /* background-color: #929596; */
 }
 .subscribe-content{
-    /* border: 2px solid green; */
     padding: 5rem;
     text-align: center;
 }
 .subscribe-content h1{
     margin-bottom: 2rem;
     font-size: 4rem;
-    /* font-family: 'Bebas Neue', sans-serif; */
-    /* letter-spacing: 0.3rem; */
 }
 .subscribe-content p{
     margin-bottom: 2rem;
     font-size: 1.87rem;
-    /* border: 2px solid yellowgreen; */
     padding: 2rem;
-    /* color: rgb(116, 108, 108); */
 }
 .subscribe-btn{
     border: none;
@@ -350,7 +321,6 @@ nav{
 /* FOOTER  */
 
 footer{
-    /* border: 2px solid red; */
     background-color: black;
     color: white;
     display: flex;
@@ -359,7 +329,6 @@ footer{
     padding: 5rem;
 }
 .row{
-    /* border: 2px solid green; */
     width: 80vw;
     display: flex;
     align-items: center;
